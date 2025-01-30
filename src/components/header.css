@@ -1,0 +1,21 @@
+.header {
+    background-color: blue;
+    height: 80px;  /* Header yüksekliği sabit */
+    display: flex;
+    align-items: center;
+}
+
+.trakya-logo {
+    width: 5vw;     
+    min-width: 40px;
+    max-width: 60px;
+    height: auto;   
+    border-radius: 50px;
+    margin-left: 200px;
+}
+
+.hijyen-text {
+    font-size: 25px;
+    margin-left: 40px;
+    color: white;
+}
