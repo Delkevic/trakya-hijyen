@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const StarRating = ({ formData, setFormData }) => {
   const handleRatingChange = (value) => {
     setFormData({
       ...formData,
-      rating: value
+      rating: value,
     });
   };
 
